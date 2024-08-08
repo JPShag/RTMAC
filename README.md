@@ -1,50 +1,50 @@
 # Router MAC Address Generator
 
-This application provides a simple graphical user interface (GUI) for generating MAC addresses that mimic those of popular router manufacturers like Cisco, NETGEAR, TP-Link, and others. It's built using Python and PyQt5.
+This application features a user-friendly graphical interface for generating MAC addresses that resemble those used by leading router manufacturers such as Cisco, NETGEAR, TP-Link, and others. It is developed with Python and utilizes the PyQt5 framework.
 
 ## Prerequisites
 
-Before you run the application, you need to have Python installed on your computer. Python 3.6 or higher is recommended. You also need to install PyQt5, which can be done via pip.
+Ensure Python is installed on your machine (Python 3.6 or newer is recommended). Additionally, you will need PyQt5, which can be installed via pip.
 
 ## Installation
 
-1. **Clone the repository or download the source code:**
-
+1. **Obtain the Source Code:**
+   Clone the repository or download the source files:
    ```bash
    git clone https://github.com/JPShag/RTMAC.git
    cd RTMAC
    ```
 
-2. **Install the required packages:**
-
+2. **Install Dependencies:**
+   Install PyQt5 using pip:
    ```bash
-   pip install PyQt5
+   pip install PyQt5 pyperclip
    ```
 
 ## Running the Application
 
-To run the application, navigate to the directory containing the script and run the following command:
-
+Execute the following command within the directory containing the script to start the application:
 ```bash
 python main.py
 ```
 
 ## Usage
 
-Upon launching the application, you will see a window with a button labeled "Generate MAC Address". Clicking this button will generate a new MAC address based on real-world OUIs associated with router manufacturers and display it in the window.
+When you launch the application, you will be presented with a dropdown menu to select a router manufacturer and a button to generate a MAC address. Selecting a manufacturer and clicking the button will produce a MAC address based on the chosen manufacturer's OUI, which will then be displayed.
 
 ## Features
 
-- **Simple GUI**: Easy-to-use graphical interface.
-- **Realistic MAC Addresses**: Generates MAC addresses using OUIs of actual router manufacturers.
+- **Interactive GUI**: Provides a straightforward and interactive interface.
+- **Customizable MAC Address Generation**: Allows selection of specific manufacturers for MAC address generation.
+- **Copy to Clipboard**: Includes a feature to directly copy the generated MAC address to the clipboard.
 
 ## Contributing
 
-Contributions to this project are welcome. You can contribute in several ways:
+Your contributions are encouraged and greatly appreciated. You can participate by:
 - Reporting bugs
-- Suggesting enhancements
-- Sending pull requests with improvements
+- Proposing new features
+- Submitting pull requests with bug fixes or enhancements
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is released under the MIT License. For more details, see the [LICENSE](LICENSE) file included with the repository.
