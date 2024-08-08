@@ -11,8 +11,8 @@ Before you run the application, you need to have Python installed on your comput
 1. **Clone the repository or download the source code:**
 
    ```bash
-   git clone https://your-repository-url.git
-   cd router-mac-address-generator
+   git clone https://github.com/JPShag/RTMAC.git
+   cd RTMAC
    ```
 
 2. **Install the required packages:**
@@ -26,7 +26,7 @@ Before you run the application, you need to have Python installed on your comput
 To run the application, navigate to the directory containing the script and run the following command:
 
 ```bash
-python mac_generator_gui.py
+python main.py
 ```
 
 ## Usage
